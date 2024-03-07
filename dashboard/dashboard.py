@@ -8,7 +8,7 @@ sns.set(style='dark')
 st.title('Penyewaan Sepeda')
 tab1, tab2 = st.tabs(["Rata Peminjaman Sepeda", "Tren"])
 
-all_df = pd.read_csv("dashboard/all_data.csv")
+all_df = pd.read_csv("all_data.csv")
 
 with tab1:
     st.header("Bagaimana pola penggunaan sepeda berubah selama hari libur dibandingkan dengan hari biasa?")
